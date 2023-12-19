@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".mohyamin_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mohyamin_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="MOHAMMAD YAMIN"
+            android:gravity="center_horizontal"
+            android:textSize="34dp"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_header"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlmohyamin_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gmohammadyamin"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/pahlmohyamin_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_below="@+id/pahlmohyamin_gambar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlmohyamin_txt3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlmohyamin_txt2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Muhammad Yamin lahir pada tanggal 24 Agustus 1903 di Sawahlunto, Sumatera Barat. Yamin merupakan pahlawan nasional, budayawan, dan aktivis hukum terkenal di Indonesia."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/pahlmohyamin_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa Perjuangan"
+            android:layout_below="@+id/pahlmohyamin_txt3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlmohyamin_txt5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlmohyamin_txt4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="M. yamin termasuk salah satu pakar hukum dan juga merupakan penyair terkemuka angkatan pujangga baru. Ia banyak menghasilkan karya tulis pada dekade 1920 yang sebagian dari karyanya menggunakan bahasa melayu. Karya-karya tulis M. Yamin diterbitkan dalam jurnal Jong Sumatra"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+</ScrollView>

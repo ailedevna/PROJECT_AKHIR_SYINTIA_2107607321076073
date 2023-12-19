@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".pemimpin_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/pemimpin_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="PEMIMPIN DAN PEJUANG PENDIDIKAN"
+            android:textSize="25dp"
+            android:background="@drawable/background_header"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lemon_days"
+            android:layout_marginTop="25dp" />
+
+        <ImageView
+            android:id="@+id/pemimpin_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/abdulhlim"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pemimpin_txt2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_gambar1"
+            android:text="ABDUL HALIM"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pemimpin_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/abdulmuiz"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pemimpin_txt3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_gambar2"
+            android:text="ABDUL MUIZ"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pemimpin_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/ilyasyakoub"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pemimpin_txt4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_gambar3"
+            android:text="ILYAS YAKOUB"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pemimpin_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/mohhatta"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pemimpin_txt5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_gambar4"
+            android:text="MOHAMMAD HATTA"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pemimpin_gambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_txt5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/rasunasaid"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pemimpin_txt6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_gambar5"
+            android:text="RASUNNA SAID"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pemimpin_gambar6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_txt6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/ruhannakudus"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pemimpin_txt7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pemimpin_gambar6"
+            android:text="RUHANNA KUDUS"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

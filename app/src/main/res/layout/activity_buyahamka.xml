@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".buyahamka_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/buyahamka_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="BUYA HAMKA"
+            android:gravity="center_horizontal"
+            android:textSize="34dp"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_header"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlbuyahamka_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gbuyahamka"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/pahlbuyahamka_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_below="@+id/pahlbuyahamka_gambar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlbuyahamka_txt3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlbuyahamka_txt2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Haji Abdul Malik Karim Amrullah atau Buya Hamka merupakan seorang ulama, sastrawan dan politikus yang berasal dari Sumatera Barat, dilahirkan di Nagari Sungai Batang, Tanjung Raya, Kabupaten Agam, Sumatera Barat 17 Februari 1908"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/pahlbuyahamka_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa Perjuangan"
+            android:layout_below="@+id/pahlbuyahamka_txt3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlbuyahamka_txt5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlbuyahamka_txt4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Saat perang revolusi, Hamka juga turut berjuang mengusir penjajah. Lewat pidato, ia mengobarkan semangat para pejuang untuk merebut kedaulatan negara. Hamka juga pernah ikut serta menentang kembalinya Belanda ke Indonesia dengan bergerilya di dalam hutan di Medan."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+</ScrollView>

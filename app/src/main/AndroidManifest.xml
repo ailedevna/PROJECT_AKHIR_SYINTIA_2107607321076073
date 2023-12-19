@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiPahlawanSejarahSumateraBarat"
+        tools:targetApi="31">
+        <activity
+            android:name=".abdulhalim_activity"
+            android:exported="false" />
+        <activity
+            android:name=".pemimpin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".ulama_activity"
+            android:exported="false" />
+        <activity
+            android:name=".pejuang_activity"
+            android:exported="false" />
+        <activity
+            android:name=".kategoripahlawan_activity"
+            android:exported="false" />
+        <activity
+            android:name=".ruhannakudus_activity"
+            android:exported="false" />
+        <activity
+            android:name=".adnankapaugani_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Hazairin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".ilyasyakoub_activity"
+            android:exported="false" />
+        <activity
+            android:name=".mohnatsir_activity"
+            android:exported="false" />
+        <activity
+            android:name=".rasunasaid_activity"
+            android:exported="false" />
+        <activity
+            android:name=".buyahamka_activity"
+            android:exported="false" />
+        <activity
+            android:name=".mohyamin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".mohhatta_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sutansyahrir_activity"
+            android:exported="false" />
+        <activity
+            android:name=".abdulmuiz_activity"
+            android:exported="false" />
+        <activity
+            android:name=".bazizchan_activity"
+            android:exported="false" />
+        <activity
+            android:name=".tuanib_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Profil"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Editprofil"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan"
+            android:exported="false" />
+        <activity
+            android:name=".home_activity"
+            android:exported="false" />
+        <activity
+            android:name=".agussalim_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

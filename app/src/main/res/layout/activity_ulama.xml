@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".ulama_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ulama_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="ULAMA DAN PEMIMPIN AGAMA"
+            android:textSize="25dp"
+            android:background="@drawable/background_header"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lemon_days"
+            android:layout_marginTop="25dp" />
+
+        <ImageView
+            android:id="@+id/ulama_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/buyahamka"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ulama_txt2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_gambar1"
+            android:text="BUYA HAMKA"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/ulama_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/hagussalim"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ulama_txt3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_gambar2"
+            android:text="HAJI AGUS SALIM"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/ulama_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/ilyasyakoub"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ulama_txt4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_gambar3"
+            android:text="ILYAS YAKOUB"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/ulama_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/mohyamin"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ulama_txt5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_gambar4"
+            android:text="MOHAMMAD YAMIN"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/ulama_gambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_txt5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/tuankuib"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ulama_txt6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ulama_gambar5"
+            android:text="TUANKU IMAM BONJOL"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

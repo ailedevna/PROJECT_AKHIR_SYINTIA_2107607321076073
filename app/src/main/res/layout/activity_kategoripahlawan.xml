@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".kategoripahlawan_activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_below="@+id/judul_pro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/logo_p"/>
+
+        <!-- Body Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <!-- Samba Box -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/merahjambu"
+                app:cardCornerRadius="15dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PEJUANG DAN TOKOH POLITIK"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="35dp"
+                    android:width="300dp"
+                    android:textStyle="bold"
+                    android:id="@+id/pejuang"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Karupuak Box -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/merahjambu"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ULAMA DAN PEMIMPIN AGAMA"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="35dp"
+                    android:width="300dp"
+                    android:id="@+id/ulama"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/merahjambu"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PEMIMPIN DAN PEJUANG PENDIDIKAN"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="35dp"
+                    android:width="300dp"
+                    android:id="@+id/pemimpin"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

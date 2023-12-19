@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".abdulhalim_activity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/abdulhalim_txt1"
+           android:layout_width="330dp"
+           android:layout_height="wrap_content"
+           android:text="ABDUL HALIM"
+           android:gravity="center_horizontal"
+           android:textSize="34dp"
+           android:fontFamily="@font/glossy"
+           android:textColor="@color/white"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_header"
+           android:layout_marginTop="20dp"/>
+
+       <ImageView
+           android:id="@+id/pahlabdulhalim_gambar1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/gabdulhalim"
+           android:layout_marginTop="80dp" />
+
+       <TextView
+           android:id="@+id/pahlabdulhalim_txt2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Deskripsi"
+           android:layout_below="@+id/pahlabdulhalim_gambar1"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="35dp"
+           android:textSize="18dp"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/pahlabdulhalim_txt3"
+           android:layout_width="350dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/pahlabdulhalim_txt2"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_deskripsi"
+           android:layout_marginTop="8dp"
+           android:padding="16dp"
+           android:gravity="center"
+           android:text="Abdul Halim dilahirkan di Bukittinggi pada tanggal 27 Desember 1911, orang tuanya berasal dari Banuhampu, Agam. Mereka bernama Achmad Sutan Iyus dan Darama"
+           android:textSize="16dp"
+           android:textColor="@color/black"
+           android:fontFamily="sans-serif"/>
+       <TextView
+           android:id="@+id/pahlabdulhalim_txt4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Masa Perjuangan"
+           android:layout_below="@+id/pahlabdulhalim_txt3"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="35dp"
+           android:textSize="18dp"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/pahlabdulhalim_txt5"
+           android:layout_width="350dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/pahlabdulhalim_txt4"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/background_deskripsi"
+           android:layout_marginTop="8dp"
+           android:padding="16dp"
+           android:gravity="center"
+           android:text="perjuangan K.H. Abdul Halim dalam bidang politik pada tahun 1945 hingga tahun 1962 antara lain menjadi anggota KNID dan Badan Eksekutif KNID Keresidenan Cirebon serta mendirikan organisasi Persatuan Umat Islam (PUI)."
+           android:textSize="16dp"
+           android:textColor="@color/black"
+           android:fontFamily="sans-serif"/>
+   </RelativeLayout>
+
+</ScrollView>

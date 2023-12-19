@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".abdulmuiz_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/AbdulMuiz_txt1"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:text="ABDUL MUIZ"
+            android:gravity="center_horizontal"
+            android:textSize="35dp"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_header"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlAbdmuiz_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gabdulmuiz"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/pahlAbdmuiz_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_below="@+id/pahlAbdmuiz_gambar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlAbdmuiz_txt3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlAbdmuiz_txt2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Tokoh kelahiran Sungai Puar, Agam, Sumbar pada 3 Juli 1883 ini adalah pahlawan nasional dari Sumatera Barat yang merupakan Datuk Tumangguang Sutan Sulaiman"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/pahlAbdmuiz_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa Perjuangan"
+            android:layout_below="@+id/pahlAbdmuiz_txt3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlAbdmuiz_txt5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlAbdmuiz_txt4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Beliau adalah seorang Demang yang selalu memberi perlawanan pada kebijakan Belanda di daerah Agam pada zamannya. Abdul Muis bergabung dengan Sarekat Islam, mendorong tokoh – tokoh Belanda untuk mendirikan Technische Hooge School, memperjuangkan kemerdekaan Indonesia."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+</ScrollView>

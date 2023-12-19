@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".pahlawan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/pahlawan_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="PAHLAWAN SEJARAH"
+            android:textSize="25dp"
+            android:background="@drawable/background_header"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lemon_days"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/tuankuib"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_gambar1"
+            android:text="TUANKU IMAM BONJOL"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/abdulmuiz"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar2"
+            android:text="ABDUL MUIZ"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/sutansyahrir"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SUTAN SYAHRIR"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/hagussalim"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar4"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="HAJI AGUS SALIM"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:ignore="DuplicateClickableBoundsCheck" />
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/buyahamka"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar5"
+            android:text="BUYA HAMKA"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/bagindoazizchan"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar6"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="BAGINDO AZIZ CHAN"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/mohhatta"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar7"
+            android:text="MOHAMMAD HATTA"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/mohyamin"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar8"
+            android:text="MOHAMMAD YAMIN"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/pahlawan_gambar9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlawan_txt9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/ilyasyakoub"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/pahlawan_txt10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pahlawan_gambar9"
+            android:text="ILYAS YAKOUB"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahjambu"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</ScrollView>

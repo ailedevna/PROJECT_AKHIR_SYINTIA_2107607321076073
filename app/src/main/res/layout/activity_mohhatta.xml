@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".mohhatta_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mohhatta_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="MOHAMMAD HATTA"
+            android:gravity="center_horizontal"
+            android:textSize="34dp"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_header"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlmohhatta_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gmohammadhatta"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/pahlmohhatta_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_below="@+id/pahlmohhatta_gambar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlmohhatta_txt3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlmohhatta_txt2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Moh Hatta lahir di Bukittinggi pada 12 Agustus 1902, dengan nama lengkap Muhammad Athar. Ayahnya bernama Mohammad Djamil dan ibunya bernama Siti Saleha."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/pahlmohhatta_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa Perjuangan"
+            android:layout_below="@+id/pahlmohhatta_txt3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlmohhatta_txt5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlmohhatta_txt4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Dalam perjuangan kemerdekaan, beliau memiliki peran dalam pembentukan Perhimpunan Indonesia, menjadi seorang pemimpin dari PUTERA yaitu Pusat Tenaga Rakyat, menjadi seorang anggota Panitia Sembilan yang melakukan perumusan terhadap Piagam Jakarta."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+</ScrollView>

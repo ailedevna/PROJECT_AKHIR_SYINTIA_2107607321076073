@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".bazizchan_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bazizchan_txt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="BAGINDO AZIZ CHAN"
+            android:gravity="center_horizontal"
+            android:textSize="35dp"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_header"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlbachan_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gbagindoazizchan"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/pahlbachan_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_below="@+id/pahlbachan_gambar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlbachan_txt3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlbachan_txt2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="Bagindo Aziz Chan atau juga ditulis dengan ejaan Bagindo Azizchan (30 September 1910) lahir di kampung alang laweh di Kota Padang.Ia adalah anak keempat dari enam bersaudara, anak dari Bagindo Montok dan Djamilah"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/pahlbachan_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa Perjuangan"
+            android:layout_below="@+id/pahlbachan_txt3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlbachan_txt5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlbachan_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_deskripsi"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="bagindo aziz chan menolak tunduk terhadap kekuatan militer belanda yang berada di belakang tentara Sekutu. Ia terus melakukan perlawanan dengan menulis di surat kabar perjuangan Tjahaja Padang, bahkan turun langsung memimpin perlawanan terhadap Belanda sampai akhirnya meninggal pada tanggal 19 juli 1947."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".ilyasyakoub_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ilyasyakoub_txt1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="ILYAS YAKOUB"
+            android:gravity="center_horizontal"
+            android:textSize="34dp"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_header"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/pahlilyasyakoub_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gilyasyakoub"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/pahlilyasyakoub_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_below="@+id/pahlilyasyakoub_gambar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlilyasyakoub_txt3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlilyasyakoub_txt2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Lahir di Asam Kumbang, Bayang, Pesisir Selatan pada 14 Juni 1903,ayahnya bernama Ya`kub dan ibunya bernama Siti Hajir. "
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/pahlilyasyakoub_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa Perjuangan"
+            android:layout_below="@+id/pahlilyasyakoub_txt3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pahlilyasyakoub_txt5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pahlilyasyakoub_txt4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_deskripsi"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Ilyas Yakoub adalah seorang ulama lulusan Mesir yang pernah memimpin mahasiswa Malaysia- Indonesia di Mesir. Ia pernah mendirikan partai Persatuan Muslim Indonesia (PERMI) yang berbasis pada lembaga – lembaga pendidikan Islam Indonesia pada 1932."
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+</ScrollView>

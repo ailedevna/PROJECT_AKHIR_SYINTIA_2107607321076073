@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".home_activity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/logo_pr"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:id="@+id/desk"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="410dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/dimboregular"
+        android:text="Sejarah Sumatera Barat berawal dari masa kerajaan Adityawarman, seorang Raja di Pagaruyung yang memberikan sumbangsih bagi alam Minangkabau dan memperkenalkan sistem kerajaan di sumatera barat pada pertengahan abad ke-17 masa pendudukan Belanda, daerah ini mengalami perubahan status dan perpecahan, termasuk penggabungan dengan provinsi-provinsi lain. Banyak pejuang yang turut andil membebaskan indonesia dari penjajah demi mencapai kemerdekaan. Adapun beberapa Pahlawan yang berasal dari sumatera barat"
+        />
+
+    <Button
+        android:id="@+id/pahlawan"
+        android:layout_width="180dp"
+        android:text="Pahlawan"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="120dp"
+        android:backgroundTint="@color/merah"/>
+    <Button
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:text="Profil"
+        android:textColor="@color/black"
+        android:fontFamily="@font/letters"
+        android:textSize="22dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/merah"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="260dp"/>
+
+</RelativeLayout>
